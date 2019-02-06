@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+$this->group(['middleware' => ['auth']], function (){
+    $this->get('cadastrar', 'CabecalhoController@index')->name('cadastrar');
+    $this->get('admin', 'AdminController@index')->name('admin');
 });
+
+$this->get('/', 'SiteController@index');
+
+Auth::routes();
+

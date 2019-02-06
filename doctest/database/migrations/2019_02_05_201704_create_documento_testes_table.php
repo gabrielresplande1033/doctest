@@ -15,7 +15,8 @@ class CreateDocumentoTestesTable extends Migration
     {
         Schema::create('documento_testes', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+            $table->String('nome_do_teste');
+            $table->String('descricao_teste');
         });
     }
 

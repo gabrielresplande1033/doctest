@@ -13,8 +13,9 @@ class CreatePaginasTable extends Migration
      */
     public function up()
     {
-        Schema::create('paginas', function (Blueprint $table) {
+        Schema::create('pagina', function (Blueprint $table) {
             $table->increments('id');
+            $table->String('menu_cabecalho');
             $table->timestamps();
         });
     }
