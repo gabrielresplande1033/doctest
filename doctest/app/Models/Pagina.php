@@ -6,5 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pagina extends Model
 {
-    //
+
+    protected $fillable = [
+        'menu_cabecalho'
+    ];
+
 }

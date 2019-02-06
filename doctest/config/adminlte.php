@@ -108,25 +108,23 @@ return [
     */
 
     'menu' => [
-        'MENU',
+        'ADM DE HOTEIS',
         [
-            'text'        => 'Home',
-            'url'         => 'admin',
-            'icon'        => 'file',
-        ],
-        [
-            'text'        => 'Cabecalho',
-            'icon'        => 'book',
-            'submenu'     => [
+            'text' => 'Cadastrar Cabecalho',
+            'icon' => 'user',
+            'submenu' => [
                 [
-                  'text' => 'Cadastrar',
-                  'url'  => 'cadastrar',
-                  'icon' => 'book'
+                    'text' => 'Inserir Cabecalho',
+                    'icon' => 'plus',
+                    'url'  => 'cadastrar',
+                ],
+                [
+                    'text' => 'Listar Cabecalho',
+                    'icon' => 'list',
+                    'url' => 'listar',
                 ]
-            ],
-
-        ]
-
+            ]
+        ],
     ],
 
     /*

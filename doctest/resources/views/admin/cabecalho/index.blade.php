@@ -13,10 +13,30 @@
 @section('content')
     <div class = "box">
         <div class="box-header">
-            Header
+            <h1>Documentacao de Teste</h1>
         </div>
-        <div class="box-header">
-            Body
+        <div clsass="box-body">
+            @if(Session::has('mensagem_sucesso'))
+                <div class="alert alert-success">{{Session::get('mensagem_sucesso')}}</div>
+            @endif
+
+            @if(Request::is('*/editar'))
+               <h3>Editando</h3>
+               <form method="POST" action="{{route('atualizar', $menu->id)}}">
+               {{ method_field('PUT') }}
+            @else
+               <h3>Inserindo</h3>
+               <form method="POST" action="{{route('inserirCabecalho')}}">
+            @endif
+                  {!! csrf_field() !!}
+                    <div class = "fsorm-group">
+                        <input type = "text" name = "menu_cabecalho" value="{{isset($menu->menu_cabecalho) ? $menu->menu_cabecalho : ''}}" placeholder="Menu" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button action="" type = "submit" class="btn btn-sucess">Salvar</button>
+                    </div>
+                </form>
+
         </div>
     </div>
 @stop
