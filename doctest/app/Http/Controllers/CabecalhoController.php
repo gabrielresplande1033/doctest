@@ -19,10 +19,16 @@ class CabecalhoController extends Controller
         return view('admin.cabecalho.lista', ['menus' => $menus]);
     }
 
+    public function retornarCabecalho(){
+        $menus = Pagina::get();
+
+        return $menus;
+    }
+
     public function inserirCabecalho(Request $request){
         $pagina = new Pagina();
 
-        $pagina = $pagina->create($request->all());
+        $pagina->create($request->all());
 
         \Session::flash('mensagem_sucesso', 'Menu do Cabecalho cadastrado com sucesso!');
 
@@ -62,19 +68,5 @@ class CabecalhoController extends Controller
 
         return redirect()->back();
     }
-
-
-
-
-
-
-        /*  try {
-            $removido = $this->hotelRepository->delete($request->id);
-            return response()->json($removido);
-        } catch (\Exception $e) {
-            echo $e->getMessage();
-            exit;
-        }
-    }*/
 
 }

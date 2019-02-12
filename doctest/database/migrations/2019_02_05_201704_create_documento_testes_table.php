@@ -15,8 +15,12 @@ class CreateDocumentoTestesTable extends Migration
     {
         Schema::create('documento_testes', function (Blueprint $table) {
             $table->increments('id');
+            $table->String('nome_submenu');
             $table->String('nome_do_teste');
+            $table->String('comando_teste');
             $table->String('descricao_teste');
+            $table->integer('id_pagina');
+            $table->foreign('id_pagina')->references('id')->on('paginas')->onDelete('cascade');
         });
     }
 

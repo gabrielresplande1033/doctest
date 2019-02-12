@@ -29,7 +29,7 @@
                <form method="POST" action="{{route('inserirCabecalho')}}">
             @endif
                   {!! csrf_field() !!}
-                    <div class = "fsorm-group">
+                    <div class = "form-group">
                         <input type = "text" name = "menu_cabecalho" value="{{isset($menu->menu_cabecalho) ? $menu->menu_cabecalho : ''}}" placeholder="Menu" class="form-control">
                     </div>
                     <div class="form-group">

@@ -20,6 +20,12 @@ $this->group(['middleware' => ['auth']], function (){
     $this->get('admin', 'AdminController@index')->name('admin');
     $this->put('atualizar/{id}', 'CabecalhoController@atualizar')->name('atualizar');
     $this->delete('deletarCabecalho/{id}', 'CabecalhoController@deletarCabecalho')->name('deletarCabecalho');
+    $this->get('cadastrarTeste', 'DocumentoTesteController@index')->name('cadastrarTeste');
+    $this->post('inserirTeste', 'DocumentoTesteController@inserirTeste')->name('inserirTeste');
+    $this->get('listarTeste', 'DocumentoTesteController@listarTeste')->name('listarTeste');
+    $this->delete('deletarDocumento/{id}', 'DocumentoTesteController@deletarDocumento')->name('deletarDocumento');
+    $this->get('documentos/{documento}/editarDocumento','DocumentoTesteController@editarDocumento')->name('editarCabecalho');
+
 });
 
 $this->get('/', 'SiteController@index');

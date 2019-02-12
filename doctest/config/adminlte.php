@@ -110,20 +110,41 @@ return [
     'menu' => [
         'ADM DE HOTEIS',
         [
-            'text' => 'Cadastrar Cabecalho',
+            'text' => 'Cabecalho',
             'icon' => 'user',
             'submenu' => [
                 [
-                    'text' => 'Inserir Cabecalho',
+                    'text' => 'Inserir',
                     'icon' => 'plus',
                     'url'  => 'cadastrar',
                 ],
                 [
-                    'text' => 'Listar Cabecalho',
+                    'text' => 'Listar',
                     'icon' => 'list',
                     'url' => 'listar',
                 ]
             ]
+
+
+        ],
+        [
+            'OK',
+            'text' => 'Documento Teste',
+            'icon' => 'user',
+            'submenu' => [
+                [
+                    'text' => 'Inserir',
+                    'icon' => 'plus',
+                    'url'  => 'cadastrarTeste',
+                ],
+                [
+                    'text' => 'Listar',
+                    'icon' => 'list',
+                    'url' => 'listarTeste',
+                ]
+            ]
+
+
         ],
     ],
 

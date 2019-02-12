@@ -12,20 +12,24 @@
             @foreach($menus as $menu)
            <tr>
                <td style="align-content: center; border-color: black">{{$menu->menu_cabecalho}}</td>
-               <td style="border-color: black" width="250px">
-                   <a href="/menus/{{$menu->id}}/editar" class = "btn btn-default btn-sm">Editar</a>
-                   <form method="POST" action="{{route('deletarCabecalho',  $menu->id)}}">
+               <td style="border-color: black" width="50px">
+                   <a href="/menus/{{$menu->id}}/editar" class = "btn btn-default btn-sm">Editar</a>  </td>
+               <td style="border-color: black" width="50px">      <form id="confirm" method="POST" action="{{route('deletarCabecalho',  $menu->id)}}">
                        {!! csrf_field() !!}
                        {{ method_field('DELETE') }}
-                   <button class = "btn btn-sm">Excluir</button>
-                   </form>
-               </td>
+                   <button onclick="myFunction()" class = "btn btn-sm">Excluir</button>
+                   </form> </td>
            </tr>
             @endforeach
         </tbody>
     </table>
   </div>
 
+           <script>
+               function myFunction() {
+                   confirm("Deseja realmente excluir esse registro?");
+               }
+           </script>
 
 @stop
 
