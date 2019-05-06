@@ -108,7 +108,7 @@ return [
     */
 
     'menu' => [
-        'ADM DE HOTEIS',
+        'Painel Administrador',
         [
             'text' => 'Cabecalho',
             'icon' => 'user',

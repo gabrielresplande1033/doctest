@@ -7,7 +7,7 @@
    <h3><strong>Menus Cadastrados</strong><h3>
 
   <div>
-    <table class="table" bordercolor = "black">
+    <table class="table table-striped" bordercolor = "black">
         <tbody>
             @foreach($menus as $menu)
            <tr>
@@ -24,13 +24,11 @@
         </tbody>
     </table>
   </div>
-
            <script>
                function myFunction() {
                    confirm("Deseja realmente excluir esse registro?");
                }
            </script>
-
 @stop
 
 @section('content')

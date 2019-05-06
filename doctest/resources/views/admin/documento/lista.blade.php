@@ -7,7 +7,7 @@
     <h3><strong>Documentos Cadastrados</strong><h3>
 
             <div>
-                <table class="table" bordercolor = "black">
+                <table class="table table-striped" bordercolor = "black">
                     <tbody>
                     @foreach($documentos as $documento)
                         <tr>

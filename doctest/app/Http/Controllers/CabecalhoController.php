@@ -14,7 +14,6 @@ class CabecalhoController extends Controller
     }
 
     public function listar(){
-
         $menus = Pagina::get();
         return view('admin.cabecalho.lista', ['menus' => $menus]);
     }
@@ -44,8 +43,7 @@ class CabecalhoController extends Controller
 
     }
 
-    public function atualizar($idMenu, Request $request)
-    {
+    public function atualizar($idMenu, Request $request){
 
         $menu = Pagina::findOrFail($idMenu);
 
@@ -57,14 +55,11 @@ class CabecalhoController extends Controller
 
      }
 
-
     public function deletarCabecalho($idMenu, Request $request){
 
         $menu = Pagina::findOrFail($idMenu);
 
         $menu->delete($request->all());
-
-        \Session::flash('mensagem_sucesso', 'Menu do Cabecalho deletado com sucesso!');
 
         return redirect()->back();
     }

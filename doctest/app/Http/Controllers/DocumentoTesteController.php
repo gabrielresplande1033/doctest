@@ -8,14 +8,15 @@ use Illuminate\Http\Request;
 
 class DocumentoTesteController extends Controller
 {
-    public function index(){
-
+    public function index()
+    {
         $paginas = Pagina::all();
 
         return view('admin.documento.index', compact('paginas'));
     }
 
-    public function inserirTeste(Request $request){
+    public function inserirTeste(Request $request)
+    {
         $documentoTeste = new DocumentoTeste();
 
         $documentoTeste->create($request->all());
@@ -26,13 +27,14 @@ class DocumentoTesteController extends Controller
 
     }
 
-    public function listarTeste(){
-
+    public function listarTeste()
+    {
         $documentos = DocumentoTeste::all();
         return view('admin.documento.lista', compact('documentos'));
     }
 
-    public function deletarDocumento($idTeste, Request $request){
+    public function deletarDocumento($idTeste, Request $request)
+    {
 
         $teste = DocumentoTeste::findOrFail($idTeste);
 
@@ -43,13 +45,27 @@ class DocumentoTesteController extends Controller
         return redirect()->back();
     }
 
-    public function editarDocumento($idDocumento){
+    public function editarDocumento($idDocumento)
+    {
 
         $documento = DocumentoTeste::findOrFail($idDocumento);
 
         $paginas = Pagina::all();
 
-        return view('admin.documento.index', ['documento'=>$documento], compact('paginas'));
+        return view('admin.documento.index', ['documento' => $documento], compact('paginas'));
+
+    }
+
+    public function atualizar($idDocumento, Request $request)
+    {
+
+        $documento = DocumentoTeste::findOrFail($idDocumento);
+
+        $documento->update($request->all());
+
+        \Session::flash('mensagem_sucesso', 'Documento atualizado com sucesso!');
+
+        return redirect()->back();
 
     }
 }
