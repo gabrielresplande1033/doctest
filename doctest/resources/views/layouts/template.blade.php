@@ -7,8 +7,21 @@
     <title>Testes automatizados</title>
 
     <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../../Documentos/doctest/doctest/public/js/scribbler.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+    <link rel="stylesheet" href="public/css/scribbler-global.css">
+    <link rel="stylesheet" href="public/css/scribbler-landing.css">
+
+
+
     <!-- Styles -->
     <style>
 
@@ -52,7 +65,7 @@
             background: rgba(0, 0, 0, 0.5);
             float: left;
             font-size: 1.5em;
-            min-height: 100%;
+            min-height: 122%;
             margin-left: 1em;
         }
 
@@ -109,6 +122,8 @@
 @include('elements._menu')
 
 @yield('content')
+
+
 
 </body>
 </html>

@@ -11,6 +11,8 @@
 @stop
 
 @section('content')
+    <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+    <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
     <div class="box">
         <div class="box-header">
             <h1>Documentacao de Teste</h1>
