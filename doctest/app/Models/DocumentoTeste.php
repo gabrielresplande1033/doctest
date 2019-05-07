@@ -13,7 +13,8 @@ class DocumentoTeste extends Model
         'nome_do_teste',
         'comando_teste',
         'descricao_teste',
-        'id_pagina'
+        'id_pagina',
+        'gif_teste_rodando'
     ];
 
 }

@@ -51,6 +51,10 @@
                                           cols="80">{{isset($documento->descricao_teste) ? $documento->descricao_teste : ''}}</textarea>
                             </div>
                             <div class="form-group">
+                                <input name="gif_teste_rodando" placeholder="Gif Teste Rodando" rows="30"
+                                          cols="80">{{isset($documento->gif_teste_rodando) ? $documento->gif_teste_rodando : ''}}</input>
+                            </div>
+                            <div class="form-group">
                                 <select name="id_pagina">
                                     @foreach($paginas as $pagina)
                                         @if(isset($documento->id_pagina))

@@ -19,6 +19,7 @@ class CreateDocumentoTestesTable extends Migration
             $table->String('nome_do_teste');
             $table->String('comando_teste');
             $table->Text('descricao_teste');
+            $table->String('gif_teste_rodando');
             $table->integer('id_pagina');
             $table->foreign('id_pagina')->references('id')->on('paginas')->onDelete('cascade');
         });

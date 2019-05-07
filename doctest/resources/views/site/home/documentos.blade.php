@@ -28,7 +28,15 @@
          <hr>
          <br>
         {!! $documentos->descricao_teste !!}
+        <br>
+        <br>
+        <div style="margin-right: 1000px">
+            <h2>Segue Exemplo do teste em execucao:</h2>
+        <img style="width: 270%" src="{{ $documentos->gif_teste_rodando }}">
+        </div>
+
     </div>
+
     </div>
 
     <script>

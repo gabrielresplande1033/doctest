@@ -65,7 +65,7 @@
             background: rgba(0, 0, 0, 0.5);
             float: left;
             font-size: 1.5em;
-            min-height: 128%;
+            min-height: 144%;
             margin-left: 1em;
         }
 
@@ -123,7 +123,8 @@
 
 @yield('content')
 
-
-
 </body>
+
+@include('elements._footer')
+
 </html>

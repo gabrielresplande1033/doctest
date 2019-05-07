@@ -27,10 +27,10 @@ $this->group(['middleware' => ['auth']], function (){
     $this->get('documentos/{documento}/editarDocumento','DocumentoTesteController@editarDocumento')->name('editarCabecalho');
     $this->put('atualizarDocumento/{id}', 'DocumentoTesteController@atualizar')->name('documento.atualizar');
 
-    $this->get('buscar-documento/{id}', 'SiteController@retornarDocumento')->name('documento.retornar');
 
 });
 
+$this->get('buscar-documento/{id}', 'SiteController@retornarDocumento')->name('documento.retornar');
 $this->get('/', 'SiteController@index');
 
 Auth::routes();
