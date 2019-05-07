@@ -65,7 +65,7 @@
             background: rgba(0, 0, 0, 0.5);
             float: left;
             font-size: 1.5em;
-            min-height: 122%;
+            min-height: 128%;
             margin-left: 1em;
         }
 

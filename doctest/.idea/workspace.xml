@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ed4ac41-f8af-45ec-9f32-153fc922826d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/documento/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/documento/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/elements/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/elements/_menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/template.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/home/documentos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/home/documentos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/home/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,13 +71,13 @@
           <entry key="dummy" value="1" />
           <entry key="env" value="57" />
           <entry key="js" value="150" />
-          <entry key="php" value="14916" />
+          <entry key="php" value="15075" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="57" />
-          <entry key="Blade" value="8594" />
+          <entry key="Blade" value="8753" />
           <entry key="CSS" value="1" />
           <entry key="JavaScript" value="150" />
           <entry key="PHP" value="6322" />
@@ -131,12 +127,14 @@
         <entry file="file://$PROJECT_DIR$/resources/views/site/home/documentos.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
-                <element signature="e#72#133#0#HTML" expanded="true" />
-                <element signature="e#400#444#0#HTML" expanded="true" />
-                <element signature="e#437#500#0#HTML" expanded="true" />
-                <element signature="e#578#632#0#HTML" expanded="true" />
+                <element signature="e#97#158#0#HTML" expanded="true" />
+                <element signature="e#206#252#0#HTML" expanded="true" />
+                <element signature="e#398#442#0#HTML" expanded="true" />
+                <element signature="e#456#500#0#HTML" expanded="true" />
+                <element signature="e#590#625#0#HTML" expanded="true" />
+                <element signature="e#699#726#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="-396">
+              <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -206,6 +204,7 @@
       <find>li</find>
       <find>image</find>
       <find>img</find>
+      <find>style</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -249,9 +248,9 @@
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/public/js/scribbler.js" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/template.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/home/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/elements/_menu.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/template.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/home/documentos.blade.php" />
       </list>
     </option>
@@ -496,23 +495,23 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="_men&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/elements/_menu.blade.php&#10;templa&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/layouts/template.blade.php&#10;package-loc&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/package-lock.json&#10;.env&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/.env&#10;Documento&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Models/DocumentoTeste.php&#10;Controll&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Http/Controllers/DocumentoTesteController.php&#10;app.&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/layouts/app.blade.php&#10;app&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/config/app.php&#10;main&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/public/js/main.js&#10;app.php&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/config/app.php&#10;composer&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/composer.json&#10;web&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/routes/web.php&#10;documento&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Http/Controllers/DocumentoTesteController.php&#10;admin&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/config/adminlte.php&#10;adminl&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/public/vendor/adminlte/dist/css/AdminLTE.css&#10;adminlte&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/public/vendor/adminlte/dist/js/adminlte.js&#10;controller&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Http/Controllers/CabecalhoController.php&#10;index&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/site/home/index.blade.php&#10;listarTeste&#9;null&#9;null&#10;lista&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/admin/cabecalho/lista.blade.php&#10;app.bl&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/layouts/app.blade.php&#10;web.php&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/routes/web.php&#10;providers&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Providers&#10;provide&#9;null&#9;null&#10;inde&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/admin/cabecalho/index.blade.php&#10;we&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/routes/web.php&#10;cabe&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Http/Controllers/CabecalhoController.php&#10;cabeca&#9;null&#9;null&#10;deletar&#9;null&#9;null&#10;docum&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Models/DocumentoTeste.php&#10;controll&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Http/Controllers/CabecalhoController.php&#10;deletarDo&#9;null&#9;null&#10;admi&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/config/adminlte.php&#10;pagin&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Models/Pagina.php&#10;docu&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Http/Controllers/DocumentoTesteController.php&#10;control&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/app/Http/Controllers/CabecalhoController.php&#10;lis&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/admin/cabecalho/lista.blade.php&#10;inserirC&#9;null&#9;null&#10;table&#9;null&#9;null&#10;css&#9;null&#9;null&#10;index.bl&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/resources/views/site/home/index.blade.php&#10;web.&#9;FILE&#9;file:///home/gabriel/Documentos/doctest/doctest/routes/web.php&#10;HomeController&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/codrops-scribbler-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/syscor-dusk" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/resources/lang" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/app/Http/Compose" />
       <recent name="$PROJECT_DIR$/app/Http/View/Composers" />
       <recent name="$PROJECT_DIR$/resources/views/admin/home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/resources/lang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -581,12 +580,12 @@
       <workItem from="1557144572539" duration="10307000" />
       <workItem from="1557159787482" duration="19102000" />
       <workItem from="1557231426658" duration="11050000" />
-      <workItem from="1557249439288" duration="6095000" />
+      <workItem from="1557249439288" duration="8558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185688000" />
+    <option name="totallyTimeSpent" value="188151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,7 +598,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20437567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -947,13 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/home/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -970,15 +961,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/home/documentos.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
-            <element signature="e#72#133#0#HTML" expanded="true" />
-            <element signature="e#400#444#0#HTML" expanded="true" />
-            <element signature="e#437#500#0#HTML" expanded="true" />
-            <element signature="e#578#632#0#HTML" expanded="true" />
+            <element signature="e#97#158#0#HTML" expanded="true" />
+            <element signature="e#206#252#0#HTML" expanded="true" />
+            <element signature="e#398#442#0#HTML" expanded="true" />
+            <element signature="e#456#500#0#HTML" expanded="true" />
+            <element signature="e#590#625#0#HTML" expanded="true" />
+            <element signature="e#699#726#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
