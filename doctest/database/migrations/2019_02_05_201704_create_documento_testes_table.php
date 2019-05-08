@@ -16,7 +16,7 @@ class CreateDocumentoTestesTable extends Migration
         Schema::create('documento_testes', function (Blueprint $table) {
             $table->increments('id');
             $table->String('nome_submenu');
-            $table->String('nome_do_teste');
+            $table->String('pre_descricao');
             $table->String('comando_teste');
             $table->Text('descricao_teste');
             $table->String('gif_teste_rodando');

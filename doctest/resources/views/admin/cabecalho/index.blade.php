@@ -38,7 +38,6 @@
                                 <button action="" type="submit" class="btn btn-sucess">Salvar</button>
                             </div>
                         </form>
-
         </div>
     </div>
 @stop

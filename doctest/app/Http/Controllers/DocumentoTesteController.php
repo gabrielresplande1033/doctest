@@ -21,9 +21,8 @@ class DocumentoTesteController extends Controller
 
         $documentoTeste->create($request->all());
 
-        \Session::flash('mensagem_sucesso', 'Documento de teste inserido com sucesso!');
-
-        return redirect()->back();
+        return redirect()->route('listarTeste')
+            ->with('success', 'Inserido com sucesso');
 
     }
 
@@ -42,7 +41,8 @@ class DocumentoTesteController extends Controller
 
         \Session::flash('mensagem_sucesso', 'Menu do Cabecalho deletado com sucesso!');
 
-        return redirect()->back();
+        return redirect()->route('listarTeste')
+            ->with('sucess_delete', 'Deletado com sucesso');
     }
 
     public function editarDocumento($idDocumento)
@@ -63,9 +63,8 @@ class DocumentoTesteController extends Controller
 
         $documento->update($request->all());
 
-        \Session::flash('mensagem_sucesso', 'Documento atualizado com sucesso!');
-
-        return redirect()->back();
+        return redirect()->route('listarTeste')
+            ->with('success', 'Alterado com sucesso');
 
     }
 }

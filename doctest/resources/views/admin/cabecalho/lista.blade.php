@@ -17,18 +17,19 @@
                <td style="border-color: black" width="50px">      <form id="confirm" method="POST" action="{{route('deletarCabecalho',  $menu->id)}}">
                        {!! csrf_field() !!}
                        {{ method_field('DELETE') }}
-                   <button onclick="myFunction()" class = "btn btn-sm">Excluir</button>
+                   <button onclick="return confirm('Are you sure?')"  class = "btn btn-sm">Excluir</button>
                    </form> </td>
            </tr>
             @endforeach
+
+            <div id="app">
+                @include('flash_message')
+            </div>
         </tbody>
     </table>
   </div>
-           <script>
-               function myFunction() {
-                   confirm("Deseja realmente excluir esse registro?");
-               }
-           </script>
+
+
 @stop
 
 @section('content')

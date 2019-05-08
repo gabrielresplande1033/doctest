@@ -13,12 +13,12 @@
 
     <div>
         <h1 style="font-size: 50px; text-align: center; margin-top: 45px">{{$documentos->nome_submenu}}</h1>
-        <h3 style="text-align: center; color: navajowhite">Teste possui como objetivo testar a receita de ponta a ponta, desde a insercao da Receita, ate a validacao em relatorio</h3>
+        <h3 style="text-align: center; color: navajowhite">{{$documentos->pre_descricao}}</h3>
 
     <br>
 
     <div style="margin-top: 5px; padding-left: 320px">
-        <h3 style="margin-bottom: 0px; text-align: left">Para executar o teste, rode o seguinte comando na raiz do projeto:</h3>
+        <h2 style="margin-bottom: 0px; text-align: left">Para executar o teste, rode o seguinte comando na raiz do projeto:</h2>
       <pre><code style="width: 27%;text-align: left" class="shell-session demo">  user ~ $ </code></pre>
     </div>
 
@@ -26,10 +26,8 @@
         <br>
          <h1>Sobre o Teste</h1>
          <hr>
-         <br>
         {!! $documentos->descricao_teste !!}
-        <br>
-        <br>
+       <br>
         <div style="margin-right: 1000px">
             <h2>Segue Exemplo do teste em execucao:</h2>
         <img style="width: 270%" src="{{ $documentos->gif_teste_rodando }}">

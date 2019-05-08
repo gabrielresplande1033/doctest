@@ -37,8 +37,8 @@
                                        placeholder="Nome sub-menu">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="nome_do_teste"
-                                       value="{{isset($documento->nome_do_teste) ? $documento->nome_do_teste : ''}}"
+                                <input type="text" name="pre_descricao"
+                                       value="{{isset($documento->pre_descricao) ? $documento->pre_descricao : ''}}"
                                        placeholder="Nome do Teste">
                             </div>
                             <div class="form-group">

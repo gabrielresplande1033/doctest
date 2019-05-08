@@ -17,8 +17,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+    <link rel="stylesheet" href="public/css/demo.css">
+    <link rel="stylesheet" href="public/css/footer-basic-centered">
     <link rel="stylesheet" href="public/css/scribbler-global.css">
     <link rel="stylesheet" href="public/css/scribbler-landing.css">
+
 
 
 
@@ -65,7 +68,7 @@
             background: rgba(0, 0, 0, 0.5);
             float: left;
             font-size: 1.5em;
-            min-height: 144%;
+            min-height: 131.5%;
             margin-left: 1em;
         }
 
@@ -125,6 +128,5 @@
 
 </body>
 
-@include('elements._footer')
-
 </html>
+

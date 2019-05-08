@@ -10,7 +10,7 @@ class DocumentoTeste extends Model
 
     protected $fillable = [
         'nome_submenu',
-        'nome_do_teste',
+        'pre_descricao',
         'comando_teste',
         'descricao_teste',
         'id_pagina',

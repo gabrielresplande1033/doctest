@@ -29,9 +29,8 @@ class CabecalhoController extends Controller
 
         $pagina->create($request->all());
 
-        \Session::flash('mensagem_sucesso', 'Menu do Cabecalho cadastrado com sucesso!');
-
-        return Redirect::to('cadastrar');
+        return redirect()->route('listar')
+            ->with('success', 'Inserido com sucesso');
 
     }
 
@@ -49,9 +48,8 @@ class CabecalhoController extends Controller
 
         $menu->update($request->all());
 
-        \Session::flash('mensagem_sucesso', 'Menu do Cabecalho atualizado com sucesso!');
-
-        return redirect()->back();
+        return redirect()->route('listar')
+            ->with('success', 'Alterado com sucesso');
 
      }
 
@@ -61,7 +59,8 @@ class CabecalhoController extends Controller
 
         $menu->delete($request->all());
 
-        return redirect()->back();
+        return redirect()->route('listar')
+            ->with('sucess_delete', 'Deletado com sucesso');
     }
 
 }
